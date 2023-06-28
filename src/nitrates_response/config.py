@@ -4,7 +4,7 @@ This file allows the user to configure where the data is located on their system
 
 import os
 
-NITRATES_RESP_DIR = '/Users/daniel/Development/Astronomy/UnmaskedResponder/'
+NITRATES_RESP_DIR = None    # If you would like to manually set your NITRATES_RESP_DIR path, type it here
 if NITRATES_RESP_DIR is None:
     NITRATES_RESP_DIR = os.getenv("NITRATES_RESP_DIR")
 if NITRATES_RESP_DIR is None:
