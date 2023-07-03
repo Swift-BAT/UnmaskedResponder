@@ -29,6 +29,7 @@ rates_resp_dir = os.path.join(NITRATES_RESP_DIR, "rates_resps")
 # this is for out of FOV
 rates_resp_out_dir = os.path.join(NITRATES_RESP_DIR, "rates_resps_outFoV2")
 
+resp_tabs = os.path.join(NITRATES_RESP_DIR, "resp_tabs")
 
 # get the directory that the data directory is located in
 dir = os.path.split(__file__)[0]
